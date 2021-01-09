@@ -5,9 +5,13 @@ Home: https://github.com/freach/udatetime
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/udatetime-feedstock/blob/master/LICENSE.txt)
 
 Summary: Fast RFC3339 compliant Python date-time library
+
+Development: https://github.com/freach/udatetime
+
+Documentation: https://github.com/freach/udatetime
 
 Handling date-times is a painful act because of the sheer endless amount of formats used by people. Luckily there are a couple of specified standards out there like ISO 8601. But even ISO 8601 leaves to many options on how to define date and time. That\'s why I encourage using the RFC3339 specified date-time format.
 udatetime offers on average 76% faster datetime object instantiation, serialization and deserialization of RFC3339 date-time strings. udatetime is using Python\'s datetime class under the hood and code already using datetime should be able to easily switch to udatetime. All datetime objects created by udatetime are timezone-aware. The timezones that udatetime uses are fixed-offset timezones, meaning that they don\'t observe daylight savings time (DST), and thus return a fixed offset from UTC all year round.
@@ -45,6 +49,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_64_python3.7.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2104&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/udatetime-feedstock?branchName=master&jobName=linux&configuration=linux_64_python3.7.____73_pypy" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_64_python3.7.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2104&branchName=master">
@@ -70,6 +81,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2104&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/udatetime-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.6.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_python3.7.____73_pypy</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2104&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/udatetime-feedstock?branchName=master&jobName=osx&configuration=osx_64_python3.7.____73_pypy" alt="variant">
                 </a>
               </td>
             </tr><tr>
